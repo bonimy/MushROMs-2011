@@ -1,0 +1,10 @@
+MushROMs->Controls->EditorForm.cs->CheckLunarDLL()
+	Handle exceptions better. Like, see if it is under a different name, or inacessible file, etc.
+	
+Some parts of Lunar Compress may be non-functioning for C# (OpenRAMFile), so test it out soon, or find a workaround.
+
+MushROMs->SMB1->PaletteEditor->Open/SaveAs()
+	Does not support different file extensions. Fix when possible.
+
+MushROMs->SMB1->GFXEditor.cs
+	Undo functions mess up when drawing multiple pixels. A fix for this would be nice
